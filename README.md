@@ -30,3 +30,14 @@ URL de la imagen en Docker Hub:
 
 https://hub.docker.com/r/jmsosso/cloud-lab
 
+## Pasos para desplegar en AWS
+
+Descargar el ejecutable de *terraform* de https://www.terraform.io/downloads.html
+
+```
+cd terraform
+terraform init
+export AWS_ACCESS_KEY_ID=<key>
+export AWS_SECRET_ACCESS_KEY=<secret>
+terraform apply
+```
