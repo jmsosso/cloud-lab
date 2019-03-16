@@ -1,5 +1,7 @@
 # PRÁCTICAS MÓDULO CLOUD
 
+[![Build Status](https://travis-ci.org/jmsosso/cloud-lab.svg?branch=master)](https://travis-ci.org/jmsosso/cloud-lab)
+
 ## Preparación
 
 * Cuenta de [Docker Hub](https://hub.docker.com/)
@@ -21,3 +23,10 @@ Automatiza el proceso de creación de la imagen de Docker y su subida a Docker H
 ## Práctica 4
 
 Crea un servidor y despliega la imagen de Docker en AWS utilizando Terraform.
+
+# Notas
+
+URL de la imagen en Docker Hub:
+
+https://hub.docker.com/r/jmsosso/cloud-lab
+
